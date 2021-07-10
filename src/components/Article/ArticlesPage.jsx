@@ -33,10 +33,10 @@ export default function ArticlePage() {
       <Container maxWidth="lg">
         <div className={classes.root}>
           <Grid container spacing={0}>
-            <Grid item xs={8}>
+            <Grid item xs={12} md={8}>
               <Article />
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={12} md={4}>
               <div className={classes.side}>
                 <React.Fragment>
                   <CssBaseline />

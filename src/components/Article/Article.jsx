@@ -79,13 +79,13 @@ export default function Articles(props) {
             category="Campus"
             new={newCampus}
             old={oldCampus}
-            auth={props.auth}
+            
           />
           <ArticleGroups
             category="Science and Society"
             new={newScience}
             old={oldScience}
-            auth={props.auth}
+            
           />
           <ArticleGroups
             category="Miscellaneous"
